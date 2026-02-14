@@ -64,6 +64,7 @@ ul.menue {
 }
 .menue a {
     text-decoration: none;
+    color: #000;
 }
 a.ct-btn {
     background: #FF8A02;
@@ -71,4 +72,71 @@ a.ct-btn {
     padding: 5px 22px;
     border-radius: 35px;
     color: white;
+}
+
+
+.banner {
+    position: relative;
+}
+.hero-headings {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    max-width: 700px;
+}
+.hero-headings h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+
+.hero-para p {
+  margin: 0;   /* default margin remove */
+  line-height: 1.7;
+}
+
+
+
+.hero p{
+    color: #D4D4D4;
+}
+.hero-para {
+  margin-top: 25px;
+  max-width: 650px;
+}
+
+.hero-para p {
+  color: #D4D4D4;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+
+  border-left: 4px solid #FF8A02;
+  padding-left: 20px;
+}
+
+
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+a.explore-btn {
+    text-decoration: none;
+    background: #FF8A02;
+    color: white;
+    padding: 12px 37px;
+    border-radius: 8px;
+}
+a.contact-btn {
+    text-decoration: none;
+    padding: 12px 37px;
+    background: #ffffff4d;
+    color: white;
+    border-radius: 8px;
+}
+.main-btns {
+    margin-top: 39px;
 }
