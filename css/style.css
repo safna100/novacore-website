@@ -13,6 +13,44 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* nav */
 ul.menue {
     display: flex;
     list-style: none;
@@ -26,4 +64,11 @@ ul.menue {
 }
 .menue a {
     text-decoration: none;
+}
+a.ct-btn {
+    background: #FF8A02;
+    text-decoration: none;
+    padding: 5px 22px;
+    border-radius: 35px;
+    color: white;
 }
