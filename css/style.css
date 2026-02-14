@@ -69,7 +69,7 @@ ul.menue {
 a.ct-btn {
     background: #FF8A02;
     text-decoration: none;
-    padding: 5px 22px;
+    padding: 8px 27px;
     border-radius: 35px;
     color: white;
 }
@@ -138,5 +138,7 @@ a.contact-btn {
     border-radius: 8px;
 }
 .main-btns {
-    margin-top: 39px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
 }
