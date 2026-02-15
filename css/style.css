@@ -9,6 +9,9 @@
   box-sizing: border-box;
 
 }
+body{
+  background-color: #F2F2F2;
+}
 html, body {
   width: 100%;
   overflow-x: hidden;
@@ -141,4 +144,68 @@ a.contact-btn {
     margin-top: 30px;
     display: flex;
     gap: 20px;
+}
+.box-of-years {
+    display: flex;
+    background: #b9b9b938;
+    width: fit-content;
+    padding: 6px 19px;
+    border-radius: 5px;
+    box-shadow: #0c0c0c36 -1px 1px 2px 0px;
+    position: absolute;
+    bottom: 28%;
+    left: 27%;
+}
+.box-of-years h3{
+    
+    color: #FF8A02;
+}
+
+.about {
+    margin-top: 60px;
+}
+.about-images {
+    position: relative;
+}
+.who {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* lineum textum idayil space */
+}
+
+.small-line {
+  width: 30px;
+  height: 2px;
+  background-color: #f58220;
+  display: inline-block;
+}
+
+.who h6 {
+  margin: 0;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+.about-cnt p{
+  font-size: 16px;
+}
+.dote {
+    width: 12px;
+    height: 12px;
+    background: #05254C;
+    border-radius: 86px;
+}
+.civi-dote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a.more-bt {
+    background: #0D4B97;
+    padding: 7px 33px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+.dote-cnt {
+    margin-bottom: 40px;
 }
