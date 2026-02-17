@@ -198,8 +198,8 @@ a.contact-btn {
     border-radius: 5px;
     box-shadow: #ffffffc9 -1px 2px 2px 0px;
     position: absolute;
-    top: 32%;
-    left: 27%;
+    top: 26%;
+    left: 28%;
 }
 .box-of-years h3{
     
@@ -253,6 +253,15 @@ a.more-bt {
     color: white;
     text-decoration: none;
     box-shadow: -1px 2px 2px 0 #1e1e1e3d;
+     display: inline-block;
+    overflow: hidden;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+a.more-bt:hover{
+    background: transparent;
+    color: #0D4B97;
+    border: 2px solid #0D4B97;
+    transform: translateY(-3px);
 }
 .dote-cnt {
     margin-bottom: 40px;
@@ -435,3 +444,49 @@ a.more-bt {
     font-weight: 500;
     letter-spacing: 2px;
 }
+section#values {
+    padding: 40px 0px;
+}
+ .values-cnt h3 {
+    margin-top: 20px;
+}
+.values-cnt p {
+    margin-top: 15px;
+}
+.row.main-points {
+    padding: 20px 0px;
+}
+.col-md-6.box-2 {
+    background: #00000000;
+    /* border: solid 1px white; */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: none;
+}
+a.get-btn {
+    background: #0D4B97;
+    padding: 7px 33px;
+    width: fit-content;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+  display: inline-block;
+    overflow: hidden;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.values-cnt {
+    padding: 12px 17px;
+}
+.points {
+    margin-top: 15px;
+}
+a.get-btn:hover {
+    background: transparent;
+    color: #0D4B97;
+    border: 2px solid #0D4B97;
+    transform: translateY(-3px);
+}
+
